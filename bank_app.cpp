@@ -18,4 +18,4 @@ int main(){
   cout << "Hello, welcome to the banking app" << endl;
   cout << "Do you have an account with us? (Y/N)" << endl;
   cin >> account_active;
-}
+};
