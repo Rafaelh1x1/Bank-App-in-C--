@@ -7,6 +7,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
+        "-pedantic-errors",
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -15,9 +16,7 @@
       "options": {
         "cwd": "C:/CTOOLS/mingw32/bin"
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
+      "problemMatcher": ["$gcc"],
       "group": {
         "kind": "build",
         "isDefault": true
